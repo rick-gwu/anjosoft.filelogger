@@ -2,8 +2,9 @@
 
 v.1.0.0
 
-This is a logging provider for .net that allows you to store log messages in local files.
-
+Logging provider for .net that allows you to store log messages in files
+<br>
+<br>
 
 ### Installation
 
@@ -51,7 +52,7 @@ By default, the logger will place logs in the applications’s root directory, i
 }
 ```
 
-### Example
+#### Example
 
 ```
 ...
