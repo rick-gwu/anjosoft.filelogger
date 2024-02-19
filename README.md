@@ -2,7 +2,7 @@
 
 v.1.0.0
 
-Logging provider for .net that allows you to store log messages in files
+Logging provider for .net that allows you to log messages to text files
 <br>
 <br>
 
