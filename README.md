@@ -1,10 +1,9 @@
 # FileLogger
 
-v.1.0.0
+v.1.0.2
 
-Logging provider for .net that allows you to log messages to text files
-<br>
-<br>
+Logging provider for .net that allows you to log messages to text files  
+  
 
 ### Installation
 
