@@ -8,7 +8,7 @@ Logging provider for .net that allows you to log messages to text files
 
 ### Installation
 
-Cifra is hosted at [nuget.org](https://www.nuget.org/packages/anjosoft.filelogger/). To Install, run:
+FileLogger is hosted at [nuget.org](https://www.nuget.org/packages/anjosoft.filelogger/). To Install, run:
 ``dotnet add package anjosoft.filelogger``
 
 ---
