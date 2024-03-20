@@ -33,6 +33,14 @@ Configure your log levels:
 }
 ```
 
+Add FileLogger and configure your logger options (Program.cs):
+
+```
+builder.Logging.AddFileLogger(options =>
+    builder.Configuration.GetSection("Logging").GetSection("File").GetSection("Options").Bind(options)
+);
+```
+
 By default, the logger will place logs in the applications’s root directory, inside a folder called “application_logs”. The default file format is UtcDateTime.log, for example, “2024-01-01.log”. To override the default log directory and/or file name format, you can specify a value for FolderPath and/or FilePath in your settings file. For example:
 
 ```
